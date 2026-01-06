@@ -1,6 +1,6 @@
 # Homebrew Tap
 
-Homebrew formulae for sebastian-kollmann projects.
+Homebrew casks for sebastian-kollmann projects.
 
 ## Installation
 
@@ -9,8 +9,8 @@ brew tap sebastian-kollmann/tap
 brew install glean-cli
 ```
 
-## Available Formulae
+## Available Casks
 
-| Formula   | Description |
+| Cask      | Description |
 |-----------|-------------|
 | glean-cli | CLI for Glean.com APIs - search documents and run agents |
