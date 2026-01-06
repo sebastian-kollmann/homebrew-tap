@@ -14,22 +14,22 @@ cask "glean-cli" do
   on_macos do
     on_intel do
       url "https://github.com/sebastian-kollmann/glean-cli/releases/download/v#{version}/glean_#{version}_darwin_amd64.tar.gz"
-      sha256 "161d87c70e1a54388d8bc0b19bfd2d5ec3a35090565b6645eaf586ddd4915025"
+      sha256 "f0f3529c1b37d053ec0c46bb3ce08147bbb46893f09c75b65be94a819fbedfef"
     end
     on_arm do
       url "https://github.com/sebastian-kollmann/glean-cli/releases/download/v#{version}/glean_#{version}_darwin_arm64.tar.gz"
-      sha256 "dbba0cec345ebb09317f42faef71c4bbd27cbc04bc69c15cd2d374e7e7c8fd35"
+      sha256 "c7de4dac990968a5defa5332e069b06e4b39252cb4589691fe8adfac07e523c3"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sebastian-kollmann/glean-cli/releases/download/v#{version}/glean_#{version}_linux_amd64.tar.gz"
-      sha256 "6574bd804d4853960f7f1f3212d20a0dbfa247ec0b8f13db2cd80a7aad41e08f"
+      sha256 "c0bed1debf500f1afa8f41f21ba860502d710303b832d0d94df58a9470258ad6"
     end
     on_arm do
       url "https://github.com/sebastian-kollmann/glean-cli/releases/download/v#{version}/glean_#{version}_linux_arm64.tar.gz"
-      sha256 "819a1055481a67b12439cbbdf4e2d3deb022d1bf482a5b4960da675ff9161f40"
+      sha256 "923b3f8c46bcb426882533c4ab7c6088d8a0a7fa63b7cf55e6b37d7626072cc6"
     end
   end
 
